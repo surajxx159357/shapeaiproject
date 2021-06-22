@@ -18,9 +18,9 @@ hmdt = api_data['main']['humidity']
 wind_spd = api_data['wind']['speed']
 date_time = datetime.now().strftime("%d %b %Y | %I:%M:%S %p")
 
-print ("-------------------------------------------------------------")
+print ("-------------------------------------------------------------"file=x)
 print ("Weather Stats for - {}  || {}".format(location.upper(), date_time),file=x)
-print ("-------------------------------------------------------------")
+print ("-------------------------------------------------------------"file=x)
 
 print ("Current temperature is: {:.2f} deg C".format(temp_city),file=x)
 print ("Current weather desc  :",weather_desc,file=x)
@@ -92,19 +92,5 @@ print ("Current wind speed    :",wind_spd ,'kmph',file=x)
 
 
 
-###[ leap year using for loop ]
-# def leap_year(year):
-#     if(year%4==0 and (year%100 or year%400)):
-#         print("leap year")
-#     else:
-#         print("not a leap_year")
-# {
-#     leap_year(2020)
-# }
 
-###[ function with 2nd method ]
-# def method(narsimha,villain):
-#     return '{},god kills ,{}'.format(narsimha,villain)
-# {
-#     print(method("vishnu","rakshas"))
-# }
+
